@@ -1,0 +1,43 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.ncr
+*.swp
+*.swo
+*.zip
+
+# OS generated files
+.DS_Store
+._*
+.SCALE
+Thumbs.db
+ehthumbs.db
+*.tmp
+*.log
+*.lock
+*.pid
+*.seed
+*.dist
+*.out
+*.class
+*.cache
+*.index
+*.metadata
+*.db
+*.sqlite
+
+# Package files
+_pycache
+*.egg
+*.egg-info
+dist
+build
+release
+bin
+*.whl
+
+# Directory artifacts
+__pycache__/
