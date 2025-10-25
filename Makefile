@@ -6,5 +6,5 @@ run: build
 
 test:
 	go mod tidy
-	go test -v ./...
+	go test ./...
 	
