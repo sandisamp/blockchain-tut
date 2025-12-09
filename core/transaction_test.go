@@ -34,6 +34,15 @@ func TestVerifySignature(t *testing.T) {
 	assert.NotNil(t, tx.Verify())
 }
 
+// func TestTxEncodeDecode(t *testing.T) {
+// 	tx := randomTxWithSignature(t)
+// 	buf := &bytes.Buffer{}
+// 	assert.Nil(t, tx.Encode(NewGobTxEncoder(buf)))
+// 	txDecoded := new(Transaction)
+// 	assert.Nil(t, txDecoded.Decode(NewGobTxDecoder(buf)))
+// 	assert.Equal(t, tx, txDecoded)
+// }
+
 func randomTxWithSignature(t *testing.T) *Transaction {
 	tx := &Transaction{
 		Data: []byte("foo"),
